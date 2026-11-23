@@ -1,0 +1,13 @@
+[package]
+name = "hena-kernel"
+version = "0.1.0"
+edition = "2021"
+description = "HENA's swarm kernel, which re-exports the MONAD, MUON and Reckon kernels today, for research into whether MUON units under shared budgets form a hierarchy"
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+monad-kernel = { git = "https://github.com/getHarshOnline/MONAD.git", rev = "9f5347382f27c12ac8676e62c4e3d54e81f3c212" }
+muon-kernel = { git = "https://github.com/getHarshOnline/MUON.git", rev = "ef90b2d5a174cdff828fe50d1ff3602dd1d262de" }
+reckon-kernel = { git = "https://github.com/getHarshOnline/reckon.git", rev = "6ecb7f64a47256ebe950bd1e7ad40ad5d0020cbf" }
+
+[dev-dependencies]

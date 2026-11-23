@@ -1,0 +1,197 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "colors": {
+    "primary": "#305c85",
+    "light": "#a4c9e7",
+    "dark": "#305c85"
+  },
+  "name": "Causality",
+  "seo": {
+    "metatags": {
+      "canonical": "https://docs.causality.in/",
+      "tdm-reservation": "1",
+      "tdm-policy": "https://causality.in/terms/"
+    }
+  },
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Reckon laboratory",
+        "pages": [
+          {
+            "group": "Build and integrate",
+            "pages": [
+              "reckon/overview",
+              "reckon/installation",
+              "reckon/architecture",
+              "reckon/python/overview",
+              "reckon/memory-manager",
+              "reckon/python/memory",
+              "reckon/python/core",
+              "reckon/kernel",
+              "reckon/daemon",
+              "reckon/python/wire-messages",
+              "reckon/sdk/typescript"
+            ]
+          },
+          {
+            "group": "Experiments and measurement",
+            "pages": [
+              "reckon/tasks-and-benchmarks",
+              "reckon/evaluation-metrics",
+              "reckon/reproducibility",
+              "reckon/experiments/continual-confirmation",
+              "reckon/experiments/tutor-confirmation",
+              "reckon/notebooks",
+              "reckon/python/tasks",
+              "reckon/python/metrics"
+            ]
+          },
+          {
+            "group": "Debugger development",
+            "pages": [
+              "reckon/debugger",
+              "reckon/debugger/key-door-example",
+              "reckon/debugger/server",
+              "reckon/debugger/interface",
+              "reckon/debugger/application",
+              "reckon/debugger/components"
+            ]
+          },
+          {
+            "group": "Framework",
+            "pages": [
+              "reckon/problem",
+              "reckon/framework",
+              "reckon/evaluation-contract",
+              "reckon/mathematical-core",
+              "reckon/operational-causality",
+              "reckon/entropy-and-coarse-graining",
+              "reckon/retrodiction",
+              "reckon/learning",
+              "reckon/references"
+            ]
+          },
+          {
+            "group": "Python API",
+            "sdk": {
+              "directory": "reckon/python-api",
+              "format": "sphinx",
+              "source": "artifacts/reckon/python-api"
+            }
+          },
+          {
+            "group": "Protocol messages",
+            "pages": [
+              "reckon/protocol"
+            ]
+          },
+          {
+            "group": "Debugger HTTP API",
+            "openapi": {
+              "source": "artifacts/reckon/http-api.json",
+              "directory": "reckon/http-api"
+            }
+          },
+          {
+            "group": "Contributing and reference",
+            "pages": [
+              "reckon/contributing/python-reference",
+              "reckon/contributing/examples",
+              "reckon/contributing/tests",
+              "reckon/python/source-overview",
+              "reckon/repository",
+              "reckon/faq",
+              "reckon/glossary"
+            ]
+          },
+          {
+            "group": "Rights and security",
+            "pages": [
+              "reckon/security"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "MONAD",
+        "pages": [
+          {
+            "group": "Manual",
+            "pages": [
+              "monad/overview",
+              "monad/getting-started",
+              "monad/formal",
+              "monad/kernel",
+              "monad/library-design",
+              "monad/mathematics",
+              "monad/repository"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "MUON",
+        "pages": [
+          {
+            "group": "Manual",
+            "pages": [
+              "muon/overview",
+              "muon/admission",
+              "muon/training",
+              "muon/building",
+              "muon/repository"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "HENA",
+        "pages": [
+          {
+            "group": "Manual",
+            "pages": [
+              "hena/overview",
+              "hena/building",
+              "hena/repository"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Q-MUON",
+        "pages": [
+          {
+            "group": "Manual",
+            "pages": [
+              "q-muon/overview",
+              "q-muon/building",
+              "q-muon/repository",
+              "q-muon/source/LICENSE-ADDITIONS"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Q-HENA",
+        "pages": [
+          {
+            "group": "Manual",
+            "pages": [
+              "q-hena/overview",
+              "q-hena/building",
+              "q-hena/repository",
+              "q-hena/source/LICENSE-ADDITIONS"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "theme": "mint",
+  "integrations": {
+    "telemetry": {
+      "enabled": false
+    }
+  }
+}

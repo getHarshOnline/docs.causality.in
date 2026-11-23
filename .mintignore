@@ -1,0 +1,5 @@
+artifacts/**
+!artifacts/reckon/
+!artifacts/reckon/http-api.json
+!.well-known/
+!.well-known/tdmrep.json

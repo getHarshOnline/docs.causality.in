@@ -1,0 +1,33 @@
+---
+title: "notebooks/runs/2026-11-16/keydoor_export_demo/95585cb0799e/summary.json"
+noindex: true
+---
+
+```json
+{
+  "budget_slots": 1,
+  "config": {
+    "budget_bytes": 50000,
+    "budget_slots": 1,
+    "learn_utility": true,
+    "num_episodes": 3,
+    "policy_name": "FIFOPolicy",
+    "purpose": "small debugger export demonstration; no policy comparison or probes",
+    "reset_memory": false,
+    "seed": 42,
+    "task_name": "keydoor"
+  },
+  "config_id": "d6cf3ff7f6ab6c9ec3fc03ce2ae7f81641cba33abacb611aa09d20f265cfc15e",
+  "metrics": {
+    "success_rate": 0.6666666666666666,
+    "total_reads": 3,
+    "total_writes": 3
+  },
+  "notebook_name": "keydoor-export-demonstration",
+  "num_episodes": 3,
+  "policy_name": "FIFOPolicy",
+  "started_at_ms": 1794851317184,
+  "task_name": "keydoor",
+  "wall_time_ms": 2.500707982107997
+}
+```

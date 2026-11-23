@@ -1,0 +1,11 @@
+[package]
+name = "muon-kernel"
+version = "0.1.0"
+edition = "2021"
+description = "MUON's adaptive learning unit, behind the common interface that HENA swarms compose"
+license = "AGPL-3.0-or-later"
+
+[dependencies]
+monad-kernel = { git = "https://github.com/getHarshOnline/MONAD.git", rev = "9f5347382f27c12ac8676e62c4e3d54e81f3c212" }
+
+[dev-dependencies]
