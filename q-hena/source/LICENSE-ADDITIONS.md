@@ -4,6 +4,6 @@ title: "Fork additions"
 
 <a id="fork&#45;additions"></a>
 
-Q\-HENA inherits material from HENA; its present quantum\-specific additions include [the paper](/q-hena/source/paper/Q-HENA-tex) and [its definitions](/q-hena/source/paper/shared/q-hena/definitions-tex), while the protocol headers retain the inherited `hena/` paths\.
+Q\-HENA adds a [draft paper](/q-hena/source/paper/Q-HENA-tex), its bibliography and its [quantum swarm definitions](/q-hena/source/paper/shared/q-hena/definitions-tex)\. Its [kernel scaffold](/q-hena/source/kernel/src/lib-rs) re\-exports the pinned MONAD, Q\-MUON and Reckon kernels\.
 
-Existing grants and notices remain in force, including the [AGPL](/q-hena/source/LICENSE) terms permitting commercial use; the rights review must establish applicable grants, attribution and RTEPL’s rights before any alternative licence, which requires a separate written agreement as the [README](/q-hena/repository#licence) states\.
+The protocol headers under `protos/hena/` come from [HENA](https://github.com/getHarshOnline/HENA)\. The formal definitions, paper Makefile and validation script come from [MONAD](https://github.com/getHarshOnline/MONAD)\. The quantum unit definitions come from [Q\-MUON](https://github.com/getHarshOnline/Q-MUON)\. These copies keep their existing grants and notices\. See the [licence terms](/q-hena/repository#licence) for commercial use and separate agreements\.

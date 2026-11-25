@@ -25,7 +25,7 @@ The [build guide](/q-muon/building) gives the prerequisites, kernel check and pa
 
 ## Licence {#licence}
 
-Q\-MUON's kernel, protocol header and paper use [AGPL\-3\.0\-or\-later](/q-muon/source/LICENSE)\. Each inherited component keeps its existing grant and [notices](/q-muon/source/LICENSE-ADDITIONS); this licence does not replace them, and the rights review of the inherited material is still to be completed\. Third\-party material keeps its own terms and required notices\.
+RawThoughts Enterprises Private Limited applies [AGPL\-3\.0\-or\-later](/q-muon/source/LICENSE) to the work it controls here\. The [fork additions and inherited files](/q-muon/source/LICENSE-ADDITIONS) identify the paper and scaffold and their sources\. Inherited files and dependencies keep their applicable terms and notices\. The release review establishes the grants and notices for the exact tree\.
 
 Commercial use is permitted under the applicable licence\. Alternative terms require a separate written agreement with RawThoughts Enterprises Private Limited, which can grant them only for material it is entitled to relicense; this repository grants none\. See [NOTICE](/q-muon/source/NOTICE) for ownership, [CITATION\.cff](/q-muon/source/CITATION-cff) for citation and [CONTRIBUTING\.md](/q-muon/source/CONTRIBUTING-md) for contribution requirements\. Outside contributions remain closed pending review of the [draft agreement](/q-muon/source/CLA-md) and a way to record acceptance\.
 
