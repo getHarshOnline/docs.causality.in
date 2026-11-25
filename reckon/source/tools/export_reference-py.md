@@ -12,6 +12,7 @@ from importlib import import_module
 from importlib.metadata import version
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 from tempfile import TemporaryDirectory
@@ -35,7 +36,7 @@ def link(name):
 
 
 def comments(location):
-    """Retain leading, trailing and detached source comments."""
+    """Retain comment prose without the source's decorative rulers."""
     if location is None:
         return ""
     parts = [
@@ -43,7 +44,11 @@ def comments(location):
         location.leading_comments,
         location.trailing_comments,
     ]
-    return "\n".join(part.strip() for part in parts if part.strip())
+    prose = (
+        "\n".join(line for line in part.splitlines() if not re.fullmatch(r"\s*={3,}\s*", line)).strip()
+        for part in parts
+    )
+    return "\n".join(part for part in prose if part)
 
 
 def collect(items, prefix):

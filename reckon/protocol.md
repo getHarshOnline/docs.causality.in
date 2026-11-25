@@ -173,7 +173,7 @@ Reckon Core API v1 Types<br /> Wire messages the daemon's API uses: Record, Quer
 
 ### reckon\.core\.v1\.TagValue {#reckon-core-v1-tagvalue-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> TAGS \& LINKS<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br />Tag value: supports string or list of strings
+TAGS \& LINKS<br />Tag value: supports string or list of strings
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -204,7 +204,7 @@ Explicit relationship between records
 
 ### reckon\.core\.v1\.RecordCost {#reckon-core-v1-recordcost-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> RECORD COST \& SCORES<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br />Resource cost of storing a record
+RECORD COST \& SCORES<br />Resource cost of storing a record
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ Causal influence estimates \(updated post\-hoc via ablation/probes\)
 
 ### reckon\.core\.v1\.Record {#reckon-core-v1-record-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> RECORD<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br />A causal memory record stored by the Causal Memory Manager
+RECORD<br />A causal memory record stored by the Causal Memory Manager
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -266,7 +266,7 @@ Causal influence estimates \(updated post\-hoc via ablation/probes\)
 
 ### reckon\.core\.v1\.HistoricalRunMetricsV1 {#reckon-core-v1-historicalrunmetricsv1-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> RUN METRICS \& PARETO POINT<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br />Metrics carried by the historical v1 summary format\. Preserve its field names<br /> and numbers when decoding saved runs\. Names alone do not establish a formula;<br /> in particular fields 4 and 5 need the original producer and source revision\.
+RUN METRICS \& PARETO POINT<br />Metrics carried by the historical v1 summary format\. Preserve its field names<br /> and numbers when decoding saved runs\. Names alone do not establish a formula;<br /> in particular fields 4 and 5 need the original producer and source revision\.
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -300,7 +300,7 @@ Coordinates retain the supplied measurement names\.
 
 ### reckon\.core\.v1\.ArtifactIndex {#reckon-core-v1-artifactindex-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> ARTIFACT INDEX<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+ARTIFACT INDEX
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -315,7 +315,7 @@ Coordinates retain the supplied measurement names\.
 
 ### reckon\.core\.v1\.RunSummary {#reckon-core-v1-runsummary-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> RUN SUMMARY \(UI\-ready, diff\-stable\)<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+RUN SUMMARY \(UI\-ready, diff\-stable\)
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -386,7 +386,7 @@ Episode context for credit linkage
 
 ### reckon\.core\.v1\.Evidence {#reckon-core-v1-evidence-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> EVIDENCE \(from causal probing\)<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+EVIDENCE \(from causal probing\)
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -411,7 +411,7 @@ Episode context for credit linkage
 
 ### reckon\.core\.v1\.TagQuery {#reckon-core-v1-tagquery-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> QUERY TYPES<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+QUERY TYPES
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -449,7 +449,7 @@ Episode context reference for tracking retrieved records
 
 ### reckon\.core\.v1\.ProbeConfig {#reckon-core-v1-probeconfig-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> PROBE CONFIG<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+PROBE CONFIG
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -479,7 +479,7 @@ Probe cost summary
 
 ### reckon\.core\.v1\.CoreApiVersion {#reckon-core-v1-coreapiversion-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> API VERSION<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+API VERSION
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -489,7 +489,7 @@ Probe cost summary
 
 ### reckon\.core\.v1\.PayloadType {#reckon-core-v1-payloadtype-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> PAYLOAD TYPE<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br />Type of payload stored in a record
+PAYLOAD TYPE<br />Type of payload stored in a record
 
 | Value | Number | Description |
 | --- | --- | --- |
@@ -506,7 +506,7 @@ Probe cost summary
 
 ### reckon\.core\.v1\.RecordScope {#reckon-core-v1-recordscope-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> RUN EXPORT \(artifact bundle, JSONL\-first for events\)<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br />Record snapshot scope for export
+RUN EXPORT \(artifact bundle, JSONL\-first for events\)<br />Record snapshot scope for export
 
 | Value | Number | Description |
 | --- | --- | --- |
@@ -521,7 +521,7 @@ Probe cost summary
 
 ### reckon\.core\.v1\.CreditPolicy {#reckon-core-v1-creditpolicy-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> CREDIT ASSIGNMENT<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+CREDIT ASSIGNMENT
 
 | Value | Number | Description |
 | --- | --- | --- |
@@ -543,7 +543,7 @@ Reckon Core API v1 Service<br /> The daemon's five\-method RPC API: Write, Retri
 
 ### reckon\.core\.v1\.WriteRequest {#reckon-core-v1-writerequest-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> WRITE<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+WRITE
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -570,7 +570,7 @@ Reckon Core API v1 Service<br /> The daemon's five\-method RPC API: Write, Retri
 
 ### reckon\.core\.v1\.RetrieveRequest {#reckon-core-v1-retrieverequest-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> RETRIEVE<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+RETRIEVE
 
 **oneof `query`:** Query type
 
@@ -597,7 +597,7 @@ Reckon Core API v1 Service<br /> The daemon's five\-method RPC API: Write, Retri
 
 ### reckon\.core\.v1\.ObserveRequest {#reckon-core-v1-observerequest-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> OBSERVE<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+OBSERVE
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -620,7 +620,7 @@ Reckon Core API v1 Service<br /> The daemon's five\-method RPC API: Write, Retri
 
 ### reckon\.core\.v1\.ProbeRequest {#reckon-core-v1-proberequest-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> PROBE<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+PROBE
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |
@@ -649,7 +649,7 @@ Reckon Core API v1 Service<br /> The daemon's five\-method RPC API: Write, Retri
 
 ### reckon\.core\.v1\.ExportRunRequest {#reckon-core-v1-exportrunrequest-1}
 
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br /> EXPORT RUN<br /> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+EXPORT RUN
 
 | Field | Number | Type | Presence | Description |
 | --- | --- | --- | --- | --- |

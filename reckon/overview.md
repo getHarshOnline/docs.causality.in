@@ -1,6 +1,8 @@
 ---
-title: "The Reckon laboratory manual"
+title: "Reckon"
 ---
+
+<a id="reckon"></a>
 
 <a id="the&#45;reckon&#45;laboratory&#45;manual"></a>
 

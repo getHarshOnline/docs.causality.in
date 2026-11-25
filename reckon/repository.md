@@ -1,6 +1,8 @@
 ---
-title: "Reckon laboratory"
+title: "Reckon"
 ---
+
+<a id="reckon"></a>
 
 <a id="reckon&#45;laboratory"></a>
 
