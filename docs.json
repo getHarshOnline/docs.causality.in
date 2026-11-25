@@ -6,11 +6,21 @@
     "dark": "#305c85"
   },
   "name": "Causality",
+  "description": "Work with the libraries and experiments in the Causality research programme. The guides cover MONAD, MUON, HENA, Q-MUON, Q-HENA and Reckon, with reference for Reckon’s memory records, protocol and debugger.",
   "seo": {
     "metatags": {
       "canonical": "https://docs.causality.in",
       "tdm-reservation": "1",
       "tdm-policy": "https://causality.in/terms/"
+    },
+    "organization": {
+      "id": "https://rawthoughts.in/#organization",
+      "name": "RawThoughts Enterprises Private Limited",
+      "legalName": "RawThoughts Enterprises Private Limited",
+      "url": "https://rawthoughts.in/",
+      "sameAs": [
+        "https://github.com/getHarshOnline"
+      ]
     }
   },
   "navigation": {
